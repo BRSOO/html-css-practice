@@ -229,7 +229,7 @@ img,i{
 .post-header a{
 	text-decoration:none;
 	color:black;
-	padding-bottom:10px;
+	padding-bottom:15px;
 	font-weight:bold;
 	font-size:18px;
 }
@@ -249,4 +249,37 @@ img,i{
 .reaction i{
 	font-size:20px;
 	padding:0px;
+}
+.caption{
+	padding:10px 0px;
+}
+.likes{
+	font-size:18px; 
+	font-weight:5;
+}
+.caption-content{
+	font-size:17px; 
+	padding-top:10px;
+}
+.authors{
+	font-weight:bold;
+}
+
+.author-message{
+	font-weight:200;
+}
+.Comment{
+	color:grey;
+	font-size:16px;
+}
+textarea{
+	margin:5px 0px;
+	border:none;
+	width: 120px;
+	resize: none;
+	font-size:14px;
+}
+.comm{
+	display:flex;
+	justify-content:space-between;
 }
