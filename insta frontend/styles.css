@@ -65,7 +65,7 @@ body{
 	border-radius:5px;
 	cursor:pointer;
 }
-i{
+img,i{
 	padding-right:10px;
 }
 .nav-bar li{
@@ -80,7 +80,7 @@ i{
 }
 .right-align{
 	padding-left:64px;
-	margin-top:13px;
+	margin-top:8px;
 	margin-left:auto;
 	font-size:15px;
 }
@@ -89,7 +89,7 @@ i{
 	margin:30px;
 	margin-bottom:0px;
 }
-.right-align i{
+.right-align img{
 	font-size:35px;
 }
 .pfp a, .pfp-detail a{
@@ -119,7 +119,7 @@ i{
 	flex-direction:column;
 }
 .right-body{
-	margin:30px;
+	margin:14px 30px;
 	display:flex;
 	justify-content:space-between;
 }
@@ -140,7 +140,7 @@ i{
 .suggestions-list{
 	display:flex;
 	margin-left:30px;
-	margin-bottom:25px;
+	margin-bottom:20px;
 }
 .right-footer{
 	margin-top:20px;
@@ -160,18 +160,22 @@ i{
 	margin-top:20px;
 }
 .message-box{
-	padding:10px;
-	margin-left:95px;
-	margin-top:45px;
+	position:fixed;
+	bottom:30px;
+	right:40px;
+	width:260px;
+	font-size:10px;
 	font-weight:bold;
 	border-radius:50px;
 	box-shadow:5px 5px 20px #cacad9;
+	
 }
 .message-box a{
 	margin:0px;
-	padding:0px;
+	padding:0px 40px;
 	text-decoration:none;
 	color:black;
+	
 }
 .message-box:hover{
 	background-color:#dfdfd0;
@@ -179,6 +183,10 @@ i{
 .messages{
 	display:flex;
 	justify-content:space-between;
+}
+
+.messages i{
+	padding:0px 15px;
 }
 
 .story-section{
@@ -197,15 +205,23 @@ i{
 	color:black;
 	text-decoration:none;
 }
-.story-bar a i{
-	font-size:50px;
-	margin:10px;
+.story-bar a img{
+	margin-right:5px;
 }
 .post-section{
-	margin-left:45px;
-	margin-right:10px;
+	margin-left:120px;
+	margin-right:85px;
 	margin-top:30px;
 }
+.post-image{
+	display:block;
+	border-radius:2px;
+	border: 1px solid grey;
+	padding:0px;
+	width:466px;
+	height:auto;
+}
+
 .post-header{
 	display:flex;
 	justify-content:space-between;
@@ -213,5 +229,24 @@ i{
 .post-header a{
 	text-decoration:none;
 	color:black;
+	padding-bottom:10px;
+	font-weight:bold;
+	font-size:18px;
+}
+.author{
+	display:flex;
+}
+
+.reaction{
+	display:flex;
+	justify-content:space-between;
+	margin-top:8px;
+	padding:0px;
+}
+.react a{
+	padding-right:10px;
+}
+.reaction i{
 	font-size:20px;
+	padding:0px;
 }
